@@ -1,0 +1,20 @@
+/* * GENERAL STYLE RULES */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* * HEADER SECTION STYLE */
+
+
+
+/* * MAIN SECTION STYLE */
+
+/* * FOOTER SECTION STYLE */
