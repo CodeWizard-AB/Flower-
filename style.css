@@ -15,6 +15,10 @@ html {
 
 /* * COMMON STYLE PATTERN */
 
+.highlight {
+	color: #e55473;
+}
+
 button {
 	background: transparent;
 	border: none;
@@ -75,7 +79,7 @@ button {
 
 /* * MAIN SECTION STYLE */
 
-main {
+.container {
 	max-width: 114rem;
 	margin: 0 auto;
 }
@@ -157,10 +161,33 @@ main {
 	margin-bottom: 2rem;
 }
 
+/* * OFFER SECTION */
+
+.discount_section {
+	background-color: #e554730d;
+	margin: 12rem 0;
+}
+
+.discount_display {
+	padding: 10rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.discount_display figure img {
+	width: 100%;
+}
+
+.discount_content {
+	max-width: 50rem;
+	text-align: center;
+}
+
 /* * INSTAGRAM SECTION */
 
 .instagram_section {
-	margin: 12rem 0;
+	margin: 12rem auto;
 }
 
 .instagram_section h2,
@@ -187,7 +214,7 @@ main {
 	background-size: cover;
 	padding: 12rem 20rem;
 	border-radius: 0.3rem;
-	margin: 12.8rem 0;
+	margin: 12rem auto;
 	text-align: center;
 }
 
@@ -225,10 +252,6 @@ footer h1 {
 	letter-spacing: 1px;
 }
 
-.flower_design {
-	color: #e55473;
-}
-
 footer p:first-of-type {
 	color: #ffffffe5;
 	margin: 2rem auto 3rem;
@@ -236,5 +259,5 @@ footer p:first-of-type {
 
 footer p:last-of-type {
 	color: #ffffff66;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 }
