@@ -22,6 +22,14 @@ button {
 	cursor: pointer;
 }
 
+.btn {
+	background-color: #e55473;
+	padding: 2rem 4.3rem;
+	border-radius: 1rem;
+	color: #fff;
+	font-size: 2rem;
+}
+
 .secondary_heading {
 	font-size: 3.2rem;
 	font-weight: 800;
@@ -61,14 +69,6 @@ button {
 	letter-spacing: 0.5px;
 }
 
-.hero_btn {
-	background-color: #e55473;
-	padding: 2rem 4.3rem;
-	border-radius: 1rem;
-	color: #fff;
-	font-size: 2rem;
-}
-
 .hero_image img {
 	width: 100%;
 }
@@ -81,7 +81,7 @@ main {
 }
 
 .feature_flowers {
-	margin: 15rem auto;
+	margin: 12rem auto;
 }
 
 .feature_flowers figure {
@@ -160,7 +160,7 @@ main {
 /* * INSTAGRAM SECTION */
 
 .instagram_section {
-	padding: 5rem 0;
+	margin: 12rem 0;
 }
 
 .instagram_section h2,
@@ -180,4 +180,61 @@ main {
 	width: 100%;
 }
 
+/* * NEWSLETTER SECTION */
+
+.newsletter_section {
+	background: url("./Flower-Assets/Rectangle\ 9.png") no-repeat center;
+	background-size: cover;
+	padding: 12rem 20rem;
+	border-radius: 0.3rem;
+	margin: 12.8rem 0;
+	text-align: center;
+}
+
+.newsletter_section p {
+	margin: 1rem auto 3rem;
+}
+
+.newsletter_section .form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.newsletter_section .form input {
+	flex: 1;
+	border: none;
+	outline: none;
+	border-radius: 0.5rem;
+	padding: 2rem 3rem;
+	font-size: 1.6rem;
+}
+
 /* * FOOTER SECTION STYLE */
+
+footer {
+	background-color: #111010;
+	text-align: center;
+	padding: 12rem;
+}
+
+footer h1 {
+	color: white;
+	font-size: 3.8rem;
+	letter-spacing: 1px;
+}
+
+.flower_design {
+	color: #e55473;
+}
+
+footer p:first-of-type {
+	color: #ffffffe5;
+	margin: 2rem auto 3rem;
+}
+
+footer p:last-of-type {
+	color: #ffffff66;
+	letter-spacing: 0.5px;
+}
