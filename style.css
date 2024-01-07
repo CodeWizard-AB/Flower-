@@ -10,6 +10,7 @@
 html {
 	font-size: 62.5%;
 	font-family: "Lato", sans-serif;
+	color: #272727;
 }
 
 /* * COMMON STYLE PATTERN */
@@ -17,40 +18,43 @@ html {
 button {
 	background: transparent;
 	border: none;
+	outline: none;
 	cursor: pointer;
 }
 
 .secondary_heading {
-	font-size: 4rem;
+	font-size: 3.2rem;
+	font-weight: 800;
 }
 
 .secondary_summary {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 1.5;
-	margin: 2rem 0;
+	margin: 2rem 0 3rem;
+	max-width: 60rem;
 }
 
 /* * HEADER SECTION STYLE */
 
 .hero_section {
 	background: #e554731a;
-	padding: 5rem 23rem;
+	padding: 5rem 19rem 0;
 	display: flex;
-	gap: 9.7rem;
+	gap: 7.5rem;
 	align-items: center;
 }
 
 .hero_content {
-	max-width: 70rem;
+	max-width: 56rem;
 }
 
 .hero_content h1 {
-	font-size: 8rem;
-	font-weight: 700;
+	font-size: 6.2rem;
+	font-weight: 800;
 }
 
 .hero_content p {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-weight: 500;
 	margin: 3.2rem 0;
 	line-height: 1.8;
@@ -77,7 +81,19 @@ main {
 }
 
 .feature_flowers {
-	margin: 12rem auto;
+	margin: 15rem auto;
+}
+
+.feature_flowers figure {
+	text-align: center;
+}
+
+.feature_flowers figure figcaption {
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-decoration: underline;
+	margin-top: 2rem;
 }
 
 .feature_flowers h2,
@@ -87,23 +103,25 @@ main {
 	margin: 2rem auto;
 }
 
-.feature_flowers figure {
-  display: grid;
-  align-items: end;
-  padding: 0 7rem;
-  height: 40rem;
-  border-radius: 50% 50% 0 0;
+.feature_flowers figure .flower {
+	display: grid;
+	align-items: end;
+	padding: 0 7rem;
+	max-width: 36.5rem;
+	height: 40rem;
+	border-radius: 50% 50% 0 0;
 }
 
-.feature_flowers figure:nth-child(1) {
+.feature_flowers figure .flower-1 {
 	background-color: #a7216226;
 }
 
-.feature_flowers figure:nth-child(2) {
+.feature_flowers figure .flower-2 {
 	background-color: #0597a026;
+	align-items: center;
 }
 
-.feature_flowers figure:nth-child(3) {
+.feature_flowers figure .flower-3 {
 	background-color: #477d1126;
 }
 
@@ -111,11 +129,55 @@ main {
 	width: 100%;
 }
 
-.flowers {
+.feature_flowers .flowers {
+	display: flex;
+	justify-content: space-around;
+	gap: 2.4rem;
+	margin-top: 5rem;
+}
+
+/* * BENEFITS SECTION */
+
+.benefits_section {
+	background: #2727270d;
 	display: flex;
 	justify-content: center;
-	gap: 2.4rem;
-  margin-top: 5rem; 
+	align-items: center;
+	gap: 8rem;
+	padding: 7rem 13rem;
+	text-align: center;
+}
+
+.benefits_section figure figcaption {
+	font-size: 1.9rem;
+	font-weight: 600;
+}
+
+.benefits_section figure img {
+	margin-bottom: 2rem;
+}
+
+/* * INSTAGRAM SECTION */
+
+.instagram_section {
+	padding: 5rem 0;
+}
+
+.instagram_section h2,
+.instagram_section p {
+	text-align: center;
+	margin: 2rem auto 5rem;
+}
+
+.instagram_images {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.instagram_images figure img {
+	width: 100%;
 }
 
 /* * FOOTER SECTION STYLE */
