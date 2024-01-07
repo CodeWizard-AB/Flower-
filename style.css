@@ -190,10 +190,13 @@ button {
 	margin: 12rem auto;
 }
 
-.instagram_section h2,
+.instagram_section h2 {
+	text-align: center;
+}
+
 .instagram_section p {
 	text-align: center;
-	margin: 2rem auto 5rem;
+	margin: 2rem auto 3rem;
 }
 
 .instagram_images {
